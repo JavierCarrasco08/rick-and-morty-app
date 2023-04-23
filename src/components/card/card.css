@@ -1,0 +1,55 @@
+.container__card {
+  background-color: var(--background-card);
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  flex-basis: 100%;
+  border-radius: 0.5rem;
+  color: var(--color-primary-title);
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.container__card:nth-child(even) {
+  background-color: var(--background-card-even);
+}
+.container__figure {
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+  -webkit-border-radius: 0.5rem 0.5rem 0 0;
+  -moz-border-radius: 0.5rem 0.5rem 0 0;
+  -ms-border-radius: 0.5rem 0.5rem 0 0;
+  -o-border-radius: 0.5rem 0.5rem 0 0;
+}
+.container__status {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-left: 0.5rem;
+}
+.container__status span {
+  font-size: 0.5rem;
+}
+.container__name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+.container__avatar {
+  width: 100%;
+  height: auto;
+  object-position: center center;
+  object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
+  -webkit-border-radius: 0.5rem 0.5rem 0 0;
+  -moz-border-radius: 0.5rem 0.5rem 0 0;
+  -ms-border-radius: 0.5rem 0.5rem 0 0;
+  -o-border-radius: 0.5rem 0.5rem 0 0;
+}
+.container__origin {
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
