@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Loader from "../loader/Loader";
 import Card from "../card/Card";
+import "./container.css";
 
 export default function ContainerRickAndMorty({ count }) {
   const [listCard, setListCard] = useState(null);
@@ -18,6 +19,7 @@ export default function ContainerRickAndMorty({ count }) {
       ignore = true;
     };
   }, [count]);
+
   return (
     <main className="container">
       {listCard === null ? (
