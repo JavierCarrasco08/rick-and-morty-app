@@ -1,3 +1,5 @@
+import "./buttons.css";
+
 export default function Buttons({ count, next, prev }) {
   return (
     <div className="buttons">
